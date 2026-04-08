@@ -1,0 +1,858 @@
+{
+  "@context": "https://spdx.github.io/spdx-spec/v3.0.1/rdf/spdx-context.jsonld",
+  "@graph": [
+    {
+      "@id": "_:b0",
+      "created": "2026-04-06T10:22:21Z",
+      "createdBy": [
+        "mdssc:Person-1"
+      ],
+      "specVersion": "3.0.1",
+      "createdUsing": [
+        "mdssc:Tool-1"
+      ],
+      "type": "CreationInfo"
+    },
+    {
+      "creationInfo": "_:b0",
+      "spdxId": "mdssc:Tool-1",
+      "description": "MetaDefender Software Supply Chain tool for generating SPDX® Software Bill of Materials (SBOM) documents",
+      "name": "MetaDefender Software Supply Chain SPDX® Generator",
+      "type": "Tool"
+    },
+    {
+      "type": "software_Sbom",
+      "element": [
+        "mdssc:Agent-1",
+        "mdssc:Package-1",
+        "mdssc:Vulnerability-1"
+      ],
+      "rootElement": [
+        "mdssc:Package-1"
+      ],
+      "profileConformance": [
+        "lite",
+        "software",
+        "security",
+        "simpleLicensing"
+      ],
+      "creationInfo": "_:b0",
+      "spdxId": "mdssc:Sbom-1"
+    },
+    {
+      "type": "SpdxDocument",
+      "element": [
+        "mdssc:Sbom-1",
+        "mdssc:Agent-1",
+        "mdssc:Package-1",
+        "mdssc:Vulnerability-1"
+      ],
+      "rootElement": [
+        "mdssc:Sbom-1"
+      ],
+      "profileConformance": [
+        "lite",
+        "software",
+        "security"
+      ],
+      "creationInfo": "_:b0",
+      "spdxId": "mdssc:SpdxDocument-1"
+    },
+    {
+      "creationInfo": "_:b0",
+      "spdxId": "mdssc:Person-1",
+      "name": "trang",
+      "type": "Person"
+    },
+    {
+      "creationInfo": "_:b0",
+      "spdxId": "mdssc:Agent-1",
+      "name": "\"Jeffrey A. Clark\" <aclark@aclark.net>",
+      "type": "Agent"
+    },
+    {
+      "type": "software_Package",
+      "software_packageVersion": "8.0.0",
+      "software_packageUrl": "pkg:pypi/pillow@8.0.0",
+      "software_primaryPurpose": "archive",
+      "releaseTime": "2020-10-14T00:00:00Z",
+      "suppliedBy": "mdssc:Agent-1",
+      "creationInfo": "_:b0",
+      "spdxId": "mdssc:Package-1",
+      "externalIdentifier": [
+        {
+          "externalIdentifierType": "packageManager",
+          "identifier": "pypi"
+        }
+      ],
+      "name": "pillow"
+    },
+    {
+      "type": "security_Vulnerability",
+      "creationInfo": "_:b0",
+      "spdxId": "mdssc:Vulnerability-1",
+      "externalIdentifier": [
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2022-24303",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-24303"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2022-22817",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-22817"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-34552",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-34552"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-25289",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-25289"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-25288",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-25288"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-25287",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-25287"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2023-50447",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-50447"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2023-44271",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-44271"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2023-4863",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2023-4863"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2022-45198",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-45198"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-28677",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-28677"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-28676",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-28676"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-27923",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-27923"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-27922",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-27922"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-27921",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-27921"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-25293",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-25293"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-25291",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-25291"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-25290",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-25290"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-23437",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-23437"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2020-35654",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-35654"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2020-35653",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-35653"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "GHSA-56pw-mpj4-fxww",
+          "identifierLocator": [
+            "https://github.com/advisories/GHSA-56pw-mpj4-fxww"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "GHSA-jgpv-4h4c-xhw3",
+          "identifierLocator": [
+            "https://github.com/advisories/GHSA-jgpv-4h4c-xhw3"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2024-28219",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2024-28219"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2022-22816",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-22816"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2022-22815",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2022-22815"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-28678",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-28678"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-28675",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-28675"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2021-25292",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2021-25292"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "CVE-2020-35655",
+          "identifierLocator": [
+            "https://nvd.nist.gov/vuln/detail/CVE-2020-35655"
+          ]
+        },
+        {
+          "externalIdentifierType": "cve",
+          "identifier": "GHSA-4fx9-vc88-q2xc",
+          "identifierLocator": [
+            "https://github.com/advisories/GHSA-4fx9-vc88-q2xc"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-9j59-75qj-795w",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2022-0196",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-8vj2-vxx3-667w",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2022-0195",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-7534-mm45-c74v",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0171",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-57h3-9rgr-c24m",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0172",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-rwv7-3v45-hg29",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0168",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-77gc-v2xv-rvvh",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0167",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-3f63-hfp8-52jq",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2024-0230",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-8ghj-p4vj-mr35",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2023-0199",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-j7hp-h8jx-5ppr",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2023-2533",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-m2vv-5vj5-2hm7",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2022-0197",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-q5hq-fp76-qmrc",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0184",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-7r7m-5h27-29hp",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0183",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-95q3-8gr9-gm8w",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0179",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-3wvg-mj6g-m9cv",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0178",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-f4w8-cv6p-x6r5",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0177",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-p43w-g3c5-g5mq",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0176",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-mvg9-xffr-p774",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0174",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-8xjq-8fcg-g5hw",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0173",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-98vv-pw6r-q6q4",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0170",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-vqcj-wrf2-7v73",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0181",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-f5g8-5qq7-938w",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0180",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0840",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-44wm-f244-xhp3",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2024-1085",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-xrcv-f9gm-v42c",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2022-0200",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-pw3c-h7wp-cvhx",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2022-0199",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-hjfx-8p6c-g7gx",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0185",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-g6rj-rv7j-xwp4",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0169",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-9hx2-hgq2-2g4f",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0175",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "GHSA-hf64-x4gq-p99h",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2021-0182",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "EUVD-2022-1306",
+          "comment": "CVE Alias"
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "22",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/22.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "74",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/74.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "120",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/120.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "787",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/787.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "125",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/125.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "125",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/125.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "95",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/95.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "94",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/94.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "770",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/770.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "400",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/400.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "787",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/787.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "409",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/409.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "400",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/400.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "835",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/835.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "400",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/400.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "400",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/400.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "400",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/400.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "125",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/125.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "125",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/125.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "787",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/787.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "400",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/400.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "125",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/125.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "787",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/787.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "125",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/125.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "400",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/400.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "680",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/680.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "676",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/676.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "120",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/120.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "125",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/125.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "665",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/665.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "345",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/345.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "252",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/252.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "233",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/233.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "400",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/400.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "125",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/125.html"
+          ]
+        },
+        {
+          "externalIdentifierType": "securityOther",
+          "identifier": "400",
+          "identifierLocator": [
+            "https://cwe.mitre.org/data/definitions/400.html"
+          ]
+        }
+      ],
+      "name": "Vulnerabilities for package pillow"
+    }
+  ]
+}
